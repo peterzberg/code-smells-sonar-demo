@@ -3,12 +3,14 @@ package com.zberg.sample.sonar.demo;
 public class MyFancyCalculator {
 
     private final String calculatorName;
+    private String someUnusedField;
 
     public MyFancyCalculator(String name) {
         this.calculatorName = name;
     }
 
-    public String getCalculatorName() {
+    public String getCalculatorName()
+    {
         return calculatorName;
     }
 
