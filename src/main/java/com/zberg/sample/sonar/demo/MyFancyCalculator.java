@@ -16,4 +16,9 @@ public class MyFancyCalculator {
         return summand1 + summand2;
     }
 
+    public int add(int summand1, int summand2, int funFactor)
+    {
+        return summand1 + summand2;
+    }
+
 }
